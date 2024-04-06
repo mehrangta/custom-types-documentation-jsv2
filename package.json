@@ -1,0 +1,9 @@
+{
+	"name": "jsv2-documentation",
+	"scripts": {
+		"build:doc": "typedoc"
+	},
+	"devDependencies": {
+		"typedoc": "^0.25.12"
+	}
+}

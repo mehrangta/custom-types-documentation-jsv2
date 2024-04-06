@@ -1,0 +1,7 @@
+{
+    "entryPoints": [
+        "packages/*"
+    ],
+    "name": "alt:V JS V2 Documentation",
+    "entryPointStrategy": "packages",
+}
