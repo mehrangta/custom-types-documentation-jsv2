@@ -2,7 +2,8 @@
 	"name": "jsv2-documentation",
 	"version": "^1.0.1",
 	"scripts": {
-		"build:doc": "typedoc"
+		"copy": "node getFiles.mjs",
+		"build:doc": "pnpm run copy && typedoc"
 	},
 	"devDependencies": {
 		"typedoc": "^0.25.12"
